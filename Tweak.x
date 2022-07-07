@@ -4,6 +4,7 @@
 - (BOOL)respectDeviceCaptionSetting { return NO; }
 - (BOOL)shouldUseAppThemeSetting { return YES; }
 - (BOOL)enableYouthereCommandsOnIos { return NO; }
+- (BOOL)isLandscapeEngagementPanelEnabled { return NO; }
 %end
 
 %hook YTHotConfig
@@ -11,8 +12,7 @@
 %end
 
 %hook YTIMediaQualitySettingsHotConfig
-%new
-- (BOOL)omitAdvancedMenuOptionForAirPlay { return NO; }
+%new - (BOOL)omitAdvancedMenuOptionForAirPlay { return NO; }
 %end
 
 %hook YTYouThereController
