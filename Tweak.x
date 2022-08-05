@@ -4,7 +4,7 @@
 - (BOOL)respectDeviceCaptionSetting { return NO; }
 - (BOOL)shouldUseAppThemeSetting { return YES; }
 - (BOOL)enableYouthereCommandsOnIos { return NO; }
-- (BOOL)isLandscapeEngagementPanelEnabled { return NO; }
+- (BOOL)isVideoZoomEnabled { return YES; }
 %end
 
 %hook YTHotConfig
