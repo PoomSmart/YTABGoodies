@@ -5,6 +5,7 @@
 - (BOOL)shouldUseAppThemeSetting { return YES; }
 - (BOOL)enableYouthereCommandsOnIos { return NO; }
 - (BOOL)isVideoZoomEnabled { return YES; }
+- (BOOL)ignoreVideoZoomAspectRatioParams { return YES; }
 %end
 
 %hook YTHotConfig
