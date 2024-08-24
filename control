@@ -7,6 +7,6 @@ Maintainer: PoomSmart
 Author: PoomSmart
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Conflicts: com.ps.youremembercaption, com.ps.ytnochecklocalnetwork, com.ps.ytsystemappearance, com.ps.youarethere
+Conflicts: com.ps.youremembercaption, com.ps.ytsystemappearance, com.ps.youarethere
 Depiction: https://poomsmart.github.io/repo/depictions/ytabgoodies.html
 SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/ytabgoodies.json

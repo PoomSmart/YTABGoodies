@@ -8,12 +8,8 @@
 - (BOOL)ignoreVideoZoomAspectRatioParams { return YES; }
 %end
 
-%hook YTHotConfig
-- (BOOL)isPromptForLocalNetworkPermissionsEnabled { return NO; }
-%end
-
 %hook YTIMediaQualitySettingsHotConfig
-%new - (BOOL)omitAdvancedMenuOptionForAirPlay { return NO; }
+%new(B@:) - (BOOL)omitAdvancedMenuOptionForAirPlay { return NO; }
 %end
 
 %hook YTYouThereController
